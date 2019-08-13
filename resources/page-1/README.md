@@ -73,11 +73,9 @@ Perintah dasar yang biasanya digunakan untuk melihat isi direktori, dan lain-lai
     [bakmie@noodles:~] $ cd ./folder-github
     [bakmie@noodles:~/folder-github] $
     ```
-  ```
+
   
-  ```
-  
-- Full length
+   - Full length
   
     ```bash
     [bakmie@noodles:~] $ cd /home/bakmie/folder-github
