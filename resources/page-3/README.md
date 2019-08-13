@@ -1,7 +1,6 @@
 # begian 3 : networking setup
 
-Bagian ini menjelaskan tentang konfigurasi jaringan pada Linux.
-
+Bagian ini menjelaskan tentang konfigurasi jaringan pada Linux, serta mendapatkan informasi tentang IP interface
 
 
 ### inspecting interfaces information and its IP
