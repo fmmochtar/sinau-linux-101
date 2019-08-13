@@ -10,18 +10,22 @@ Untuk instalasi dan download package melalui repositori, menggunakan **apt**, at
 
 Syntax dasar
 
+Offline install deb dengan dpkg
+
 ```
 dpkg -i <file-package.deb>
 ```
 
+Update repo
 ```
 apt update
 ```
 
+Install package
 ```
 apt install <package-name>
 ```
-
+Upgrade packages
 ```
 apt upgrade
 ```
