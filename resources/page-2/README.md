@@ -60,18 +60,17 @@ Perintah dasar yang digunakan untuk urusan user account pada Linux adalah:
   ```bash
   passwd <username>
   ```
+
   Contoh: 
 
   ```bash
-[bakmie@noodles:~] $ sudo passwd netlab
+  [bakmie@noodles:~] $ sudo passwd netlab
   ```
   
   ```
   [root@noodles:~] # passwd netlab
   ```
   
-
-
 
 ### file / folder permissions and ownerships
 
