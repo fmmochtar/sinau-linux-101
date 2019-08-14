@@ -12,3 +12,4 @@ Tutorial ini mencakup dasar-dasar penggunaan Linux.
 4. [Package installation](https://github.com/fmmochtar/sinau-linux-101/tree/master/resources/page-4)
 5. to be continued ... ?
 
+Tulisan ini masih akan terus di-*update*.
