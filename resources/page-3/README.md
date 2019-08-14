@@ -1,11 +1,11 @@
-# begian 3 : networking setup
+# bagian 3 : networking setup
 
 Bagian ini menjelaskan tentang konfigurasi jaringan pada Linux, serta mendapatkan informasi tentang IP interface
 
 
 ### inspecting interfaces information and its IP
 
-Untuk melihat alamat IP pada Linux, dapat menggunakan perintah berikut
+Untuk melihat alamat IP pada Linux, dapat menggunakan perintah berikut.
 
 ```bash
 ifconfig
@@ -31,7 +31,7 @@ Umumnya, bila menggunakan distro seperti Debian ataupun Ubuntu, tersimpan pada:
 /etc/network/interfaces/
 ```
 
-Contoh konfigurasi
+Contoh konfigurasi:
 
 ```
 # Example
@@ -47,6 +47,23 @@ iface ens18 inet static
     netmask 255.255.255.0
     broadcast 192.168.1.255
     gateway 192.168.1.1
+#   dns-nameserver 8.8.8.8
 
+```
+
+RHEL/Fedora/CentOS (coming soon)
+
+Netplan (coming soon)
+
+### name server resolver
+
+DNS (Domain Name Server) memiliki fungsi untuk translasi hostname dalam bentuk tulisan (domain), seperti **google.com** menjadi alamat IP.
+
+DNS yang digunakan dapat diubah sesuai yang kita inginkan, dengan cara mengubah konfigurasi pada **/etc/resolv.conf** atau menambahkan opsi **dns-nameserver** pada konfigurasi interface (sesuai pada contoh sebelumnya).
+
+Contoh konfigurasi resolv.conf
+
+```
+nameserver 8.8.8.8
 ```
 

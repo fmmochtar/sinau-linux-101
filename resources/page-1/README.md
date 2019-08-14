@@ -1,4 +1,4 @@
-# begian 1 : file operations
+# bagian 1 : file operations
 
 Bagian ini menjelaskan tentang operasi file dan direktori umum pada Linux.
 
@@ -75,13 +75,13 @@ Perintah dasar yang biasanya digunakan untuk melihat isi direktori, dan lain-lai
     ```
 
   
-   - Full length
+  - Full length
   
     ```bash
     [bakmie@noodles:~] $ cd /home/bakmie/folder-github
     [bakmie@noodles:~/folder-github] $
     ```
-    
+  
 
 
 ### file operation
@@ -110,19 +110,19 @@ Perintah dasar yang digunakan untuk operasi file dan folder antara lain:
   - Hapus **file**
 
     ```bash
-    [bakmie@noodles] $ rm README.md 
+    [bakmie@noodles:~] $ rm README.md 
     ```
 
   - Hapus **folder** dan seisinya
 
     ```bash
-    [bakmie@noodles] $ rm -r ./folder-sampah
+    [bakmie@noodles:~] $ rm -r ./folder-sampah
     ```
     
   - Hapus folder dan seisinya (no confirmation)
     
     ```bash
-    [bakmie@noodles] $ rm -rf ./folder-sampah
+    [bakmie@noodles:~] $ rm -rf ./folder-sampah
     ```
     
 
@@ -134,7 +134,7 @@ Perintah dasar yang digunakan untuk operasi file dan folder antara lain:
   Contoh: 
 
   ```bash
-  [bakmie@noodles] $ mv README.md ./folder-github 
+  [bakmie@noodles:~] $ mv README.md ./folder-github 
   ```
 
 - **touch**	: create new file
@@ -145,7 +145,7 @@ Perintah dasar yang digunakan untuk operasi file dan folder antara lain:
   Contoh: 
 
   ```bash
-  [bakmie@noodles] $ touch tabel-fisdas.csv
+  [bakmie@noodles:~] $ touch tabel-fisdas.csv
   ```
 
 - **mkdir**	: create new folder
@@ -156,7 +156,7 @@ Perintah dasar yang digunakan untuk operasi file dan folder antara lain:
     Contoh: 
 
   ```bash
-  [bakmie@noodles] $ mkdir folder-kuliah
+  [bakmie@noodles:~] $ mkdir folder-kuliah
   ```
 
 

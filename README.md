@@ -13,3 +13,4 @@ Tutorial ini mencakup dasar-dasar penggunaan Linux.
 5. to be continued ... ?
 
 Tulisan ini masih akan terus di-*update*.
+

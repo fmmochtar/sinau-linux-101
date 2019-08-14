@@ -1,4 +1,4 @@
-# begian 2 : users, file permissions, ownership
+# bagian 2 : users, file permissions, ownership
 
 ### basic of user accounts
 
@@ -98,6 +98,16 @@ Tiap file atau direktori memiliki 3 jenis *permission*, yaitu:
 - **w**rite = 2
 - e**x**ecute = 1
 
+Contoh: 
+
+```
+755 -> owner = full | group = read, execute | all users = read, execute
+```
+
+```
+776 - > owner = full | group = full | all users = read, write
+```
+
 
 
 - **chmod**	: ganti permission
@@ -133,13 +143,13 @@ Tiap file atau direktori memiliki 3 jenis *permission*, yaitu:
   - Pada sebuah **file**
 
     ```bash
-    [bakmie@noodles] $ chown bakmie:bakmie README.txt
+    [bakmie@noodles:~] $ chown bakmie:bakmie README.txt
     ```
 
   - Pada sebuah **direktori** dan seisinya
 
     ```bash
-    [bakmie@noodles] $ chown -R bakmie:bakmie ./folder-github
+    [bakmie@noodles:~] $ chown -R bakmie:bakmie ./folder-github
     ```
     
   

@@ -1,4 +1,4 @@
-# begian 4 : package installation
+# bagian 4 : package installation
 
 Pada bagian ini, saia bagi menjadi 3 kategori berdasarkan distribusi Linux yang umum digunakan. Berlaku untuk ~~anaknya~~ turunannya.
 
@@ -10,41 +10,56 @@ Untuk instalasi dan download package melalui repositori, menggunakan **apt**, at
 
 Syntax dasar
 
-Offline install deb dengan dpkg
+- Offline install deb dengan dpkg
 
-```
-dpkg -i <file-package.deb>
-```
+  ```bash
+  dpkg -i <file-package.deb>
+  ```
 
-Update repo
-```
-apt update
-```
+- Update repo
 
-Install package
-```
-apt install <package-name>
-```
-Upgrade packages
-```
-apt upgrade
-```
+  ```bash
+  apt update
+  ```
 
+- Install package
 
+  ```bash
+  apt install <package-name>
+  ```
+- Upgrade packages
+
+  ```bash
+  apt upgrade
+  ```
+
+- Remove package(s)
+
+  ```
+  apt remove <package-name>
+  ```
+
+- Purge packages(s) (total removal)
+
+  ```
+  apt purge <package-name>
+  ```
+
+  
 
 ### Red Hat / Fedora / Oracle
 
 Pada distro RHEL/Fedora dan turunannya, menggunakan **RPM** sebagai package installer.
 
-Untuk instalasi dan download package melalui repo, menggunakan **dnf** atau **yum**.
+Untuk instalasi dan download package melalui repo, menggunakan **dnf** atau **yum**. Lebih disarankan menggunakan **dnf**, karena sudah mengalami improvisasi dari segi algoritma untuk deteksi *broken dependencies*.
 
-Syntax dasar
+Syntax dasar:
 
-```
+```bash
 dnf install <nama-package>
 ```
 
-```
+```bash
 yum install <nama-package>
 ```
 
@@ -58,18 +73,25 @@ Syntax dasar
 
 Install
 
-```
-pacman -S <nama package>
+```bash
+pacman -S <package-name>
 ```
 
-Refresh repo (?)
+Update repo (?)
 
+```bash
+pacman -Sy
 ```
+
+Upgrade packages
+
+```bash
 pacman -Syu
 ```
 
-Update packages
+Remove packages
 
+```bash
+pacman -R <package-name>
 ```
-pacman -Syyu
-```
+
