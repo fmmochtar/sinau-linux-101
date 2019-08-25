@@ -1,6 +1,6 @@
 # sinau-linux-101
 
-Ditulis dalam Bahasa Indonesia yang (masih kurang) baik dan benar, serta disengaja salah, and mixed it with some grammatically error English.
+Ditulis dalam Bahasa Indonesia yang (masih kurang) baik dan benar, serta disengaja salah, and mixed it with some grammatically error English
 
 > Bodo amat sing penting sinau linux sek.
 
