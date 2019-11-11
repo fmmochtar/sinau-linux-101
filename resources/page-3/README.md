@@ -53,7 +53,38 @@ iface ens18 inet static
 
 RHEL/Fedora/CentOS (coming soon)
 
-Netplan (coming soon)
+#### Netplan 
+
+Netplan merupakan konfigurasi jaringan yang dikembangkan oleh Canonical yang digunakan pada distro Ubuntu. Menggunakan bahasa data-serialization bernama YAML, yang bersifat case-sensitive, dan tidak diperkenankan menggunakan indentasi dengan TAB, melainkan menggunakan spasi. 
+
+Indentasi antar child dengan parent, ataupun sub-child dengan child harus konsisten. Sebagai contoh berikut, ethernets dengan enp3s0 (ataupun nama interface lainnya), bila indentasi awal adalah 2 spasi, maka indentasi berikutnya harus 2 spasi, dan ditambah 2 spasi lagi untuk child nya.
+
+Lokasi konfigurasi terletak pada:
+
+```
+/etc/network/interfaces/
+```
+
+Contoh konfigurasi:
+
+```
+network:
+  ethernets:
+    enp3s0:
+      addresses:
+        - 10.10.10.2/24
+      gateway4: 10.10.10.1
+      nameservers:
+          search: [mydomain, otherdomain]
+          addresses: [10.10.10.1, 1.1.1.1]
+  version: 2
+```
+
+Setelah mengubah konfigurasi tersebut, untuk menerapkannya dapat menggunakan:
+
+```
+netplan apply
+```
 
 ### name server resolver
 
