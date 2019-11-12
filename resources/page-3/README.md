@@ -28,7 +28,7 @@ Linux memiliki konfigurasi networking yang tersimpan dalam bentuk teks.
 Umumnya, bila menggunakan distro seperti Debian ataupun Ubuntu, tersimpan pada:
 
 ```
-/etc/network/interfaces/
+/etc/network/interfaces
 ```
 
 Contoh konfigurasi:
@@ -62,7 +62,7 @@ Indentasi antar child dengan parent, ataupun sub-child dengan child harus konsis
 Lokasi konfigurasi terletak pada:
 
 ```
-/etc/netplan/
+/etc/netplan/<file>.yaml
 ```
 
 Contoh konfigurasi:
