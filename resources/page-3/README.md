@@ -62,7 +62,7 @@ Indentasi antar child dengan parent, ataupun sub-child dengan child harus konsis
 Lokasi konfigurasi terletak pada:
 
 ```
-/etc/network/interfaces/
+/etc/netplan/
 ```
 
 Contoh konfigurasi:
