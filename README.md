@@ -2,7 +2,7 @@
 
 Ditulis dalam Bahasa Indonesia yang (masih kurang) baik dan benar, serta disengaja salah, and mixed it with some grammatically error English
 
-> Bodo amat sing penting sinau linux sek.
+> Sekarang, mana server enterprise yang masih ga pake Linux? wkwk
 
 Tutorial ini mencakup dasar-dasar penggunaan Linux.
 
