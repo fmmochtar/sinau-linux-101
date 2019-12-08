@@ -86,6 +86,12 @@ Setelah mengubah konfigurasi tersebut, untuk menerapkannya dapat menggunakan:
 netplan apply
 ```
 
+### nmtui
+nmtui (NetworkManager terminal UI) adalah sebuah tool yang dapat digunakan untuk konfigurasi jaringan pada Linux melalui UI sederhana pada terminal. Program ini hanya dapat berjalan bila NetworkManager sudah terpasang pada sistem.
+
+Penjelasan NetworkManager: coming soon ...
+
+
 ### name server resolver
 
 DNS (Domain Name Server) memiliki fungsi untuk translasi hostname dalam bentuk tulisan (domain), seperti **google.com** menjadi alamat IP.
