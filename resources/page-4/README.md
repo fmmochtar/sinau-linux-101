@@ -14,10 +14,10 @@ Untuk instalasi dan download package melalui repositori, menggunakan **apt**, at
 | ------------------------------------- | -------------------------- |
 | Offline install **deb** dengan dpkg   | dpkg -i <file-package.deb> |
 | **Update** repo                       | apt update                 |
-| **Install** package                   | apt install <package-name> |
+| **Install** package                   | apt install (package-name) |
 | **Upgrade** packages                  | apt upgrade                |
-| **Remove** package(s)                 | apt remove <package-name>  |
-| **Purge** packages(s) (total removal) | apt purge <package-name>   |
+| **Remove** package(s)                 | apt remove (package-name)  |
+| **Purge** packages(s) (total removal) | apt purge (package-name)   |
 
 Debian, Ubuntu serta turunannya memiliki repositori yang berisi daftar package untuk instalasi, dan package tersebut didapatkan melalui repo tersebut.
 
