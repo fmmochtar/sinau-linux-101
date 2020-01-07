@@ -159,5 +159,60 @@ Perintah dasar yang digunakan untuk operasi file dan folder antara lain:
   [bakmie@noodles:~] $ mkdir folder-kuliah
   ```
 
+### writing and/or editing text files
 
+Biasanya, distro Linux memberikan bawaan teks editor dengan tampilan command line. Contoh yang biasanya kita temukan adalah **nano** dan **vi** / **vim**.
+
+Bagi pemula, **nano** merupakan text editor yang cukup user-friendly karena memiliki control yang mudah dipahami oleh user.
+
+-   Contoh: 
+
+  ```bash
+  [bakmie@noodles:~] $ nano .bashrc
+  ```
+
+**Basic controls:**
+
+Ctrl + \ : Find and replace
+
+Ctrl + O : save file
+
+Ctrl + X : exit
+
+
+
+**Vi** / **Vim** biasanya digunakan bagi pengguna Linux yang sudah memiliki skill menengah - mahir. Untuk menggunakannya, sangat diperlukan panduan awal agar dapat memahami penggunaan program tersebut.
+
+-   Contoh: 
+
+  ```bash
+  [bakmie@noodles:~] $ vim .bashrc
+  ```
+
+
+
+**Basic controls:**
+
+Ctrl + C : Command mode / Exit insert mode
+
+Insert / i : Edit (Insert mode)
+
+a : Edit (Append mode)
+
+
+
+Save / Exit
+
+| `:qa`          | Tutup file                             |
+| -------------- | -------------------------------------- |
+| `:qa!`         | Exit, tutup semua file tanpa perubahan |
+| `:w`           | Save                                   |
+| `:wq` */* `:x` | Save dan exit                          |
+| `:q`           | Exit                                   |
+|                |                                        |
+|                |                                        |
+
+
+
+Untuk lebih lengkapnya, dapat melihat cheat sheet nya pada link berikut: https://devhints.io/vim
 

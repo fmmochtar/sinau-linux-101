@@ -8,44 +8,24 @@ Debian, Ubuntu dan turunannya menggunakan package installer **dpkg** untuk insta
 
 Untuk instalasi dan download package melalui repositori, menggunakan **apt**, atau **apt-get**.
 
-Syntax dasar
+#### Syntax dasar
 
-- Offline install deb dengan dpkg
+| Functions                             | Command line               |
+| ------------------------------------- | -------------------------- |
+| Offline install **deb** dengan dpkg   | dpkg -i <file-package.deb> |
+| **Update** repo                       | apt update                 |
+| **Install** package                   | apt install <package-name> |
+| **Upgrade** packages                  | apt upgrade                |
+| **Remove** package(s)                 | apt remove <package-name>  |
+| **Purge** packages(s) (total removal) | apt purge <package-name>   |
 
-  ```bash
-  dpkg -i <file-package.deb>
-  ```
+Debian, Ubuntu serta turunannya memiliki repositori yang berisi daftar package untuk instalasi, dan package tersebut didapatkan melalui repo tersebut.
 
-- Update repo
 
-  ```bash
-  apt update
-  ```
 
-- Install package
+**penambahan repo coming soon**
 
-  ```bash
-  apt install <package-name>
-  ```
-- Upgrade packages
 
-  ```bash
-  apt upgrade
-  ```
-
-- Remove package(s)
-
-  ```
-  apt remove <package-name>
-  ```
-
-- Purge packages(s) (total removal)
-
-  ```
-  apt purge <package-name>
-  ```
-
-  
 
 ### Red Hat / Fedora / Oracle
 
